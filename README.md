@@ -30,6 +30,17 @@ The goal is to organize skills by business value, cloud scenario, and delivery a
 
 General Skills are the common foundation required across all Huawei Cloud adoption work. They are not limited to one cloud service, one project type, or one delivery team.
 
+## Level 1 Domains
+
+The first level of the framework follows the established `1+3` domain structure. These domains will host different skill sets as the repository grows:
+
+- Cloud Foundation
+- Application Modernization
+- Big Data
+- AI
+
+The General Skills defined in this document apply across all four Level 1 domains.
+
 ### G1. Scenario Understanding and Requirement Abstraction
 
 Translate customer requirements into a structured view of the current system, process pain points, possible AI intervention points, and the expected pull on cloud resource consumption.
