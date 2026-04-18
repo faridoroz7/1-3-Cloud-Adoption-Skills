@@ -17,3 +17,7 @@ AI Coding focuses on applying AI directly to software engineering work, especial
 - Reusable prompt and tool patterns
 - Code quality and productivity baseline
 - Validation report for engineering use cases
+
+## Included Skills
+
+- [OpenShift Huawei Cloud MaaS Skill](./OpenShift-Huawei-Cloud-MaaS-Skill/README.md): Integrate browser-based coding environments such as OpenShift Dev Spaces or Eclipse Che with Cline and Huawei Cloud MaaS through an OpenAI-compatible interface.
