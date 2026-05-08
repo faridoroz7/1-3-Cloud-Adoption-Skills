@@ -53,7 +53,8 @@ Follow this sequence by default:
    - Read [references/followup-suggestions.md](references/followup-suggestions.md).
 
 7. **Generate synthetic data for demos:**
-   - Use `scripts/generate-chatbi-demo-data.py` to create realistic test datasets.
+   - Use `scripts/generate-chatbi-demo-data.py` with `--country` flag for LATAM multi-country support.
+   - Supported: mexico, colombia, argentina, chile, peru, brazil.
    - Read [references/synthetic-data-patterns.md](references/synthetic-data-patterns.md).
 
 8. **Validate end-to-end:**
@@ -79,7 +80,7 @@ User question (natural language)
 - Always enforce LIMIT. Never let the LLM return unbounded results.
 - Auto-retry is critical. LLMs often generate slightly wrong SQL on first try. Re-prompting with the error fixes 70% of failures on the second attempt.
 - The fallback chain must be transparent. Show the user which provider generated the SQL.
-- Synthetic data must look real. Use Mexican business context (MXN currency, RFC codes, Mexican states, realistic company names).
+- Synthetic data must look real. Use country-specific business context (local currency, tax IDs, regions, realistic company names). Support Mexico, Colombia, Argentina, Chile, Peru, and Brazil.
 - Never expose database credentials in the frontend. All SQL execution happens server-side.
 
 ## Default Deliverables
