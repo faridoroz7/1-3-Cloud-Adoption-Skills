@@ -1,0 +1,4 @@
+interface:
+  display_name: "CSS Code Search MCP"
+  short_description: "Deploy CSS code-search MCP for AI coding agents"
+  default_prompt: "Use $css-code-search-mcp to provision a Huawei Cloud CSS cluster, index a code repository, and expose it as a searchable MCP tool for claude-glm."

@@ -1,0 +1,18 @@
+[Unit]
+Description=CSS Code Search MCP HTTP server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt
+Environment=CSS_URL=http://192.168.0.23:9200
+Environment=CSS_INDEX=cloud-adoption-skills
+Environment=MCP_PORT=8789
+EnvironmentFile=/opt/css_mcp_env
+ExecStart=/usr/bin/python3 /opt/css_mcp_server.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
