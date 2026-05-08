@@ -1,4 +1,4 @@
-# AI-Ready Data and Knowledge Base
+# AI Knowledge Base
 
 This use case builds the data supply foundation for AI systems, especially for retrieval-augmented generation and enterprise knowledge services. It combines structured and unstructured data preparation into a usable model-facing layer.
 
