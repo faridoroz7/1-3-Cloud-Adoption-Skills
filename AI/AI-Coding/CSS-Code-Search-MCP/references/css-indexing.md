@@ -13,7 +13,7 @@ Files are split into ~8 KB chunks with 500-char overlap to balance:
 Path segments are mapped to structured fields:
 
 ```
-AI/AI-Infrastructure/CSS-Autoscaling-Benchmark-Skill/config.py
+Big-Data/AI-Ready-Data-and-Knowledge-Base/CSS-Autoscaling-Benchmark-Skill/config.py
 │  │                │          │
 │  │                │          └─ file_name
 │  │                └─ skill_name
