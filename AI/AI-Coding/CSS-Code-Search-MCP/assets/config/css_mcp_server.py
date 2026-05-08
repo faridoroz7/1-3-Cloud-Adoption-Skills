@@ -31,7 +31,7 @@ async def search_code(query: str, size: int = 10, category: str = "", skill: str
         size: max results to return (1-20)
         category: filter by category - AI, Big-Data, Application-Modernization, Cloud-Foundation
         skill: filter by skill name, e.g. "LiteLLM-SearXNG-AICoding-Gateway-Single-ECS",
-               "css-testing", "enterprise-rag-agent", "GaussDB-Adaptation-Skill"
+               "CSS-Autoscaling-Benchmark-Skill", "enterprise-rag-agent", "GaussDB-Adaptation-Skill"
     Returns: list of {repo_path, file_name, category, skill_name, ext, chunk_index,
              total_chunks, line_start, line_end, content, score, highlights}
     """

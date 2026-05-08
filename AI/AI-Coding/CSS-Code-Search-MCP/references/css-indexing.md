@@ -13,7 +13,7 @@ Files are split into ~8 KB chunks with 500-char overlap to balance:
 Path segments are mapped to structured fields:
 
 ```
-AI/AI-Infrastructure/css-testing/config.py
+AI/AI-Infrastructure/CSS-Autoscaling-Benchmark-Skill/config.py
 │  │                │          │
 │  │                │          └─ file_name
 │  │                └─ skill_name
@@ -21,7 +21,7 @@ AI/AI-Infrastructure/css-testing/config.py
 └─ category
 ```
 
-This enables filtered queries like `category=AI AND skill_name=css-testing`.
+This enables filtered queries like `category=AI AND skill_name=CSS-Autoscaling-Benchmark-Skill`.
 
 ## Index Mapping
 
